@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Bricolage+Grotesque&family=Open+Sans:wght@700&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+
+    <title>TP INTEGRADOR</title>
+</head>
+
+<body>
+    <header class="header-container">
+        <div class="col-2"><img class="img" src="./img/codoacodo.png" alt=""></div>
+        <div class="conf col-2 ms-5">Conf Bs As</div>
+        <nav class="navbar d-flex">
+            <a href="#">La conferencia</a>
+            <a href="#">Los oradores</a>
+            <a href="#">El lugar y la fecha</a>
+            <a href="#">Conviértete en orador</a>
+            <a href="#"><span class="span">Comprar tickets</span></a>
+
+        </nav>
+    </header>
+    <main>
+        <div class="foto">
+            <img class="img2" src="./img/ba1.jpg" alt="">
+            <div class="cptransp">
+            </div>
+            <div class="tf">
+                <h1>Conf Bs As</h1>
+                <p>Bs As llega por primera vez a Argentina. Un evento para compartir con
+                    nuestra el conocimiento y experiencia de los expertos que
+                    están creando el futuro de Internet. Ven a conocer a miembros del
+                    evento, a otros estudiantes de Codo a Codo y los oradores de primer
+                    nivel que tenemos para ti. Te esperamos!</p>
+            </div>
+            <div class="botones">
+                <a class="btn-nada" href="#">Quiero ser Orador</a>
+                <a class="btn-verde" href="#">Comprar tickets</a>
+            </div>
+        </div>
+        <div class="main">
+            <div class="subtitulo">
+                <p>CONOCE A LOS</p>
+                <h3>ORADORES</h3>
+            </div>
+            <div class="contenedor ps-5 pe-5 ms-5 me-5">
+                <div class="caja1">
+                    <img class="cardsimg" src="./img/steve.jpg" alt="">
+                    <div class="logojavareact">
+                        <p1>JavaScript</p1>
+                        <p2>React</p2>
+                    </div>
+                    <div class="nombre">
+                        <p>Steve Jobs
+                        <p>
+                    </div>
+                    <div class="texto">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipsicing
+                            elit. Et voluptatibus perferendis deleniti, totam fuga
+                            sequi iste! Facilis explicabo repellat ut similique
+                            incidunt? Ullam nobois beatae, corporis facilis veniam
+                            magni ratione!</p>
+                    </div>
+                </div>
+                <div class="caja2">
+                    <img class="cardsimg" src="./img/bill.jpg" alt="">
+                    <div class="logojavareact">
+                        <p1>JavaScript</p1>
+                        <p2>React</p2>
+                    </div>
+                    <div class="nombre">
+                        <p>Bill Gates</p>
+                    </div>
+                    <div class="texto">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipsicing
+                            elit. Et voluptatibus perferendis deleniti, totam fuga
+                            sequi iste! Facilis explicabo repellat ut similique
+                            incidunt? Ullam nobois beatae, corporis facilis veniam
+                            magni ratione!</p>
+                    </div>
+                </div>
+                <div class="caja3">
+                    <img class="cardsimg" src="./img/ada.jpeg" alt="">
+                    <div class="logonegociost">
+                        <p1>Negocios</p1>
+                        <p2>Startups</p2>
+                    </div>
+                    <div class="nombre">
+                        <p>Ada Lovelace</p>
+                    </div>
+                    <div class="texto">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipsicing
+                            elit. Et voluptatibus perferendis deleniti, totam fuga
+                            sequi iste! Facilis explicabo repellat ut similique
+                            incidunt? Ullam nobois beatae, corporis facilis veniam
+                            magni ratione!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="conbottom">
+                <div>
+                    <img class="img3" src="img/honolulu.jpg" alt="">
+                </div>
+                <div class="texto1">
+                    <h3> Bs As - Octubre</h3>
+                    <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados
+                        Unidos. Honolulu es la
+                        más sureña de entre las principales ciudades estadounidences. Aunque el nombre de Honolulu se
+                        refiere al área
+                        urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado
+                        una ciudad-
+                        condado consolidada que cubre toda la ciudad (aproximadamente 600km2 de superficie).</p>
+                    <a class="btn-nada" href="#">Conoce más</a>
+                </div>
+            </div>
+            <div class="contenedor3">
+                <p class="fs-6 text-center m-0 p-0">CONVIERTETE EN UN </p>
+                <p class="fs-3 text-center m-0 p-0 fw-bold">ORADOR</p>
+                <p class="fs-9 text-center m-0 p-0">Anótate como orador para dar una charla ignite. Cuéntanos de qué
+                    quieres hablar!</p>
+                <div class="form">
+                    <form action="" method="post">
+                        <label for="nombre"></label>
+                        <input type="text" class="nombre" name="nombre" placeholder="Nombre">
+                        <label for="apellido"></label>
+                        <input type="text" class="apellido" name="apellido" placeholder="Apellido">
+                        <label for="descripcion"></label>
+                        <textarea rows="6" cols="150" class="descripcion" name="descripcion"
+                            placeholder="Sobre qué quieres hablar?"></textarea>
+                        <p class="fs-7">Recuerda incluir un titulo para tu charla</p>
+                        <input class="boton" type="submit" value="Enviar">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer d-flex">
+        <div>
+            <a href="#">Preguntas frecuentes</a>
+            <a href="">Contáctanos </a>
+            <a href="">Prensa</a>
+            <a href="">Conferencias</a>
+            <a href="">Términos y condiciones</a>
+            <a href="">Privacidad</a>
+            <a href="">Estudiantes</a>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
