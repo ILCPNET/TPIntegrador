@@ -1,0 +1,64 @@
+.cuadrados {
+    /* border: 3px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr;
+    grid-template-areas: "Estudiante" "Trainee" "Junior";
+    margin-top: 5vw;
+    justify-content: center;
+    margin-left: 27vw;
+    margin-right: 27vw;   
+}
+
+.Estudiante {
+    grid-area: "Estudiante";
+    border: 1px solid rgb(0, 119, 255);
+    width: 15vw;
+    border-radius: 5px;
+    padding: 1vw;
+    text-align: center; 
+    
+}
+
+.Trainee {
+    grid-area: "Trainee";
+    border: 1px solid rgb(1, 56, 1);
+    width: 15vw;
+    border-radius: 5px;
+    padding: 1vw;
+    text-align: center;
+}
+
+.Junior {
+    grid-area: "Junior";
+    border: 1px solid rgb(255, 174, 0);
+    width: 15vw;
+    border-radius: 5px;
+    padding: 1vw;
+    text-align: center;
+}
+.venta{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.form{
+    justify-content: center;
+    /* margin-left: 25vw; */
+
+}
+.nombre{
+    border-radius: 5px;
+    border-color: rgba(128, 128, 128, 0.411);   
+    padding: 6px;
+    
+}
+.apellido{
+    border-radius: 5px;
+    border-color: rgba(128, 128, 128, 0.411);
+    padding: 6px;
+}
+.correo{
+    border-color: rgba(128, 128, 128, 0.411);
+    border-radius: 5px;
+    padding: 6px;
+}

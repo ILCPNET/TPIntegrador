@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Comprar Tickets</title>
+</head>
+
+<body>
+    <section class="cuadrados">
+        <div class="Estudiante me-1">
+            <h4>Estudiante</h4>
+            <p>Tienen un descuento</p>
+            <p class="fs-5 fw-bold">80%</p>
+            <sup>* Presentar documentación</sup>
+
+        </div>
+        <div class="Trainee me-1">
+            <h4>Trainee</h4>
+            <p>Tienen un descuento</p>
+            <p class="fs-5 fw-bold">50%</p>
+            <sup>* Presentar documentación</sup>
+
+        </div>
+        <div class="Junior">
+            <h4>Junior</h4>
+            <p>Tienen un descuento</p>
+            <p class="fs-5 fw-bold">15%</p>
+            <sup>* Presentar documentación</sup>
+        </div>
+    </section>
+    <div class="container w-50 pt-2">
+        <div class="text-center mt-2">
+            <sup>VENTA</sup>
+            <h2>VALOR DE TICKET $200</h2>
+        </div>
+
+        <form class="form row g-1 gx-2">
+            <div class="col-md-6 mb-3">
+                <input class="form-control " type="text" placeholder="Nombre">
+            </div>
+            <div class="col-md-6 mb-3">
+                <input class="form-control" type="text" placeholder="Apellido">
+            </div>
+            <div class="col-md-12 mb-3">
+                <input class="form-control" type="email" placeholder="Correo">
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="cantidad" class="form-label">Cantidad</label>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="categoria" class="form-label">Categoria</label>
+            </div>
+            <div class="col-md-6 mb-3">
+                <input type="text" class="form-control cantidad" name="cantidad" id="cantidad" placeholder="Cantidad">
+            </div>
+            <div class="col-md-6 mb-3">
+                <select id="Categoria" class="form-select">
+                    <option value="">Sin categoria</option>
+                    <option value="Estudiante">Estudiante</option>
+                    <option value="Trainee">Trainee</option>
+                    <option value="Junior">Junior</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <p class="alert alert-primary" id="totalAPagar">Total a pagar: $</p>
+            </div>
+            <div class="d-grid col-6 mx-auto">
+                <button class="btn btn-success mb-3 btnBorrar">Borrar</button>
+            </div>
+            <div class="d-grid col-6 mx-auto">
+                <button class="btn btn-success mb-3 btnResumen" onclick="calculoPago()">Resumen</button>
+            </div>
+    </div>
+    </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
